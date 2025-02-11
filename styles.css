@@ -36,6 +36,12 @@ h2 {
   background: #ff9900;
 }
 
+.game-info,
+.game-table {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .game-info img {
   max-width: 100%;
   height: auto;
@@ -117,24 +123,34 @@ footer {
   background: #ff9900;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 769px) {
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 
   .cta-button {
-    font-size: 16px;
-    padding: 10px 20px;
-    width: 80%;
+    font-size: 18px;
+    padding: 12px 24px;
+    width: auto;
   }
 
   .game-table table {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   table,
   th,
   td {
-    padding: 8px;
+    padding: 10px;
+  }
+
+  .game-table {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .modal-content {
+    width: 90%;
+    max-width: 400px;
   }
 }
